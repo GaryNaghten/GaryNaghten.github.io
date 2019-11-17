@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>CTW</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<nav>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html"><img src="images/CTWnewLogo.png" width="250"  alt="Cian's Tech World Logo"></a>
+		<a href="index.html" class="active">Home</a> 
+		<a href="iphone.html">iPhone</a> 
+		<a href="ipad.html">iPad</a> 
+		<a href="mac.html">Mac</a> 
+		<a href="android.html">Android</a>
+		<a href="windows.html">Windows</a>
+		<a href="login.html">Login</a>
+		<a href="javascript:void(0);" class="icon" onClick="myFunction()"> <em class="fa fa-bars"></em> </a></div>
+</nav>
+	<div id="banner">
+		<img src="images/HomepageBackground.jpg" alt="Computer being repaired">
+	</div>
+
+	<div id="BodyContent">
+		<h1>Technology Repair Specialists</h1>
+		
+		<h3>Cian's Tech World specialises in offering a fast repair service for smartphones, tablets and computers along with a wide range of mobile accessories and refurbished devices. Our professionally trained and certified technicians provide fast and affordable iPhone repairs, smartphone screen replacements and all fixes for PCs, Macs and tablets. We have more than a decade of experience diagnosing and fixing everything from Samsung repairs to iPad screen replacements.</h3>
+	</div>
+	
+	<div class="GroupZero">
+		<h1>What can we repair for you today?</h1>
+		<h3><i>Click your device to choose your model</i></h3>
+</div>
+	
+<div id="SelectionOptions" align="center">
+				<a href="mac.html"><img src ="images/appLap.png" width="200" alt="Image of an Apple Laptop"></a>
+				<a href="iphone.html"><img src ="images/appPho.png" width="200" alt="Image of an Apple Phone"></a>
+				<a href="ipad.html"><img src ="images/appTab.png" width="200" alt="Image of an Apple Tablet"></a>
+				<a href="android.html"><img src ="images/andTab.png" width="200" alt="Image of an Android Tablet"></a>
+				<a href="android.html"><img src ="images/andPho.png" width="200" alt="Image of an Android Phone"></a>
+				<a href="windows.html"><img src ="images/winLap.png" width="200" alt="Image of an Windows Laptop"></a>
+</div>
+
+	
+	
+	<div class="GroupOne">
+		<div id="BodyImages1">
+				<img src="images/drop.jpg" alt="Image of dropped phone">
+	  </div>
+	
+	
+			<div id="BodyContent1">
+				<h1>Step 1 - Dropped your phone? don't worry.</h1>
+				<h3>The bad news: Your device is broken. The good news: You have found an excellent way to get your iPhone repaired. We can fix virtually all problems on iPhones, iPads, Samsung Galaxy, Macbooks, Surface Pro devices and many more. Smartphone or tablet, we have it handled. Our website makes it easy to tell us what device you have, and what service you need. </h3>
+			</div>
+</div>
+	
+	<div class="GroupTwo">
+		<div id="BodyContent2">
+				<h1>Step 2 - Our technicians have you covered!</h1>
+				<h3>Our team carries out same-day repairs, with a  warranty and price match guarantee on all our work. iPhone screen repairs are often carried out in 45 minutes or less. Our technicians have expertly fixed more than 10,000 devices including cracked screen, water damage, defective speakers, battery problems and HDMI ports. Whatever the technical issue, we fix it all.</h3>
+	  </div>
+	
+			<div id="BodyImages2">
+				<img src="images/repair.png" alt="Phone being repaired">
+			</div>
+	</div>
+	
+
+	<div class="GroupThree">
+		<div id="BodyImages3">
+				<img src="images/repaired.png" alt="Smiling customer with his phone">
+	  </div>
+	
+			<div id="BodyContent3">
+				<h1>Step 3 - Boom! You're back online.</h1>
+				<h3>45-Minutes later and your device is repaired and working perfectly. Whether your issue is a cracked iPhone screen or jammed power button on your Galaxy device, our technicians have you covered. Now that your faith in humanity is restored, you can get back to the important things in life.</h3>
+			</div>
+	</div>
+	
+	<div id="CompaniesWorkedWith">
+		<h1>Here are some organisations we work with</h1>
+		<img src="images/companies.png" alt="Images of company logos">
+	</div>	
+
+<div id="mapcontainer">
+<div id="maptext"><h1>Find us here!</h1></div>
+<div id="map">
+	</div>
+
+<script>
+		function initMap() {
+  		var uluru = {lat: 53.974219, lng: -7.354421};
+  		var map = new google.maps.Map(
+      	document.getElementById('map'), {zoom: 15, center: uluru});
+  		var marker = new google.maps.Marker({position: uluru, map: map});
+		}
+    </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiDSHlADtRQV_phq2sX-yvmsQBTt1lIiY&callback=initMap"></script>
+</div>
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<footer>
+	<div id="footerelements">
+		<div id="footer1">
+			<a href="index.html"><img src="images/CTWWhite.png" width="150" height="80" alt="Cian's Tech World Logo"></a>
+			<div id="footer1inner">
+				<a href="index.html">Home</a><span> |</span>
+				<a href="faq.html">FAQ</a><span> |</span>
+				<a href="tos.html">Terms of service</a><span> |</span>
+				<a href="warranty.html">Warranty</a>
+			</div>
+			<h5>Copyright 2019 | Cian's Tech World</h5>
+		</div>
+		<div id="footer2">
+			<div id="imagecontainer">
+				<img src="images/locationlogo.png" width="45" alt="location icon">
+				<a href="mailto:info@cianstechworld.ie"><img src="images/emaillogo.png" width="45" alt="email icon"></a>
+				<a href="tel:00353-85-202-0405"><img src="images/phonelogo.png" width="45" alt="phone icon"></a>
+				</div>
+			<div id="textcontainer">
+				<h5>Ballinagh Rd, Gortnakesh, Cavan</h5>
+				<h5>info@cianstechworld.ie</h5>
+				<h5>00353 85 202 0405</h5>
+				</div>
+		</div>
+		
+			<div id="footer3">
+				<h3>About the company</h3>
+				<h4>Cian's Tech World is an independently owned phone and computer repair store in Cavan, we're 100% Irish owned. </h4>
+					<a href="https://www.facebook.com/cianstechworld/"><img src="images/footerimages/facebook.png" width="60" alt="facebook logo"></a>
+					<a href="https://www.twitter.com/cianstechworld/"><img src="images/footerimages/twitter.png" width="60" alt="twitter logo"></a>
+					<a href="https://www.instagram.com/cianstechworld/"><img src="images/footerimages/instagram.png" width="60" alt="instagram logo"></a>
+					<a href="https://www.snapchat.com/add/Cianstechworld"><img src="images/footerimages/snapchat.png" width="60" alt="snapchat logo"></a>
+					<a href="tel:00353-85-202-0405"><img src="images/footerimages/whatsapp.png" width="60" alt="whatsapp logo"></a>
+			</div>
+	</div>
+</footer>
+</body>
+</html>

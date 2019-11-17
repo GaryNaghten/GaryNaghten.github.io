@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>CTW</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<nav>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html"><img src="images/CTWnewLogo.png" width="250"  alt="Cian's Tech World Logo"></a>
+		<a href="index.html">Home</a> 
+		<a href="iphone.html">iPhone</a> 
+		<a href="ipad.html">iPad</a> 
+		<a href="mac.html">Mac</a> 
+		<a href="android.html">Android</a>
+		<a href="windows.html">Windows</a>
+		<a href="login.html">Login</a>
+		<a href="javascript:void(0);" class="icon" onClick="myFunction()"> <em class="fa fa-bars"></em> </a></div>
+</nav>
+
+	
+	
+<div id="loginform" class="center">
+	<img src="images/clientportal.png" alt="Cian's Tech World Logo">
+<form accept-charset="UTF-8" action="https://techworld.repairshopr.com/my_profile/do_login" method="post">
+  <div class="login-fields">
+    <p>Please login to your account</p>
+    <div class="field1">
+      <h4>Ticket Number</h4>
+      <input class="loginpasswordfield" id="ticket_number" name="ticket_number" placeholder="Ticket Number" type="text" />
+    </div> <!-- /field -->
+    <div class="field2">
+      <h4>Last Name</h4>
+      <input class="loginusernamefield" id="last_name" name="last_name" placeholder="Enter last Name" type="text" />
+    </div> <!-- /password -->
+  </div> <!-- /login-fields -->
+  <div class="login-actions">
+    <input class="signinbutton" name="commit" type="submit" value="Sign in" />
+  </div> <!-- .actions -->
+</form>
+	</div>
+	
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>	
+<footer>
+	<div id="footerelements">
+		<div id="footer1">
+			<a href="index.html"><img src="images/CTWWhite.png" width="150" height="80" alt="Cian's Tech World Logo"></a>
+			<div id="footer1inner">
+				<a href="index.html">Home</a><span> |</span>
+				<a href="faq.html">FAQ</a><span> |</span>
+				<a href="tos.html">Terms of service</a><span> |</span>
+				<a href="warranty.html">Warranty</a>
+			</div>
+			<h5>Copyright 2019 | Cian's Tech World</h5>
+		</div>
+		<div id="footer2">
+			<div id="imagecontainer">
+				<img src="images/locationlogo.png" width="45" alt="location icon">
+				<a href="mailto:info@cianstechworld.ie"><img src="images/emaillogo.png" width="45" alt="email icon"></a>
+				<a href="tel:00353-85-202-0405"><img src="images/phonelogo.png" width="45" alt="phone icon"></a>
+				</div>
+			<div id="textcontainer">
+				<h5>Ballinagh Rd, Gortnakesh, Cavan</h5>
+				<h5>info@cianstechworld.ie</h5>
+				<h5>00353 85 202 0405</h5>
+				</div>
+		</div>
+		
+			<div id="footer3">
+				<h3>About the company</h3>
+				<h4>Cian's Tech World is an independently owned phone and computer repair store in Cavan, we're 100% Irish owned. </h4>
+					<a href="https://www.facebook.com/cianstechworld/"><img src="images/footerimages/facebook.png" width="60" alt="facebook logo"></a>
+					<a href="https://www.twitter.com/cianstechworld/"><img src="images/footerimages/twitter.png" width="60" alt="twitter logo"></a>
+					<a href="https://www.instagram.com/cianstechworld/"><img src="images/footerimages/instagram.png" width="60" alt="instagram logo"></a>
+					<a href="https://www.snapchat.com/add/Cianstechworld"><img src="images/footerimages/snapchat.png" width="60" alt="snapchat logo"></a>
+					<a href="tel:00353-85-202-0405"><img src="images/footerimages/whatsapp.png" width="60" alt="whatsapp logo"></a>
+			</div>
+	</div>
+</footer>
+</body>
+</html>

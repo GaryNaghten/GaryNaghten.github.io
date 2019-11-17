@@ -1,0 +1,1074 @@
+@charset "UTF-8";
+
+html, body {
+    max-width: 99.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Helvetica, "Helvetica Neue Medium";
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    padding: 0;
+	width: 100%;
+}
+
+#bodyMac {
+    background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Helvetica, "Helvetica Neue Medium";
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    padding: 0;
+	width: 100%;
+}
+
+header {
+    text-align: center;
+    margin-top: 0%;
+}
+
+#imagecontainer{
+	width: 10%;
+	float: left;
+}
+
+
+#imagecontainer img{
+	padding-top: 4px;
+}
+
+#textcontainer{
+	width: 90%;
+	float: right;
+}
+
+#textcontainer h5{
+	padding-bottom: 14px;
+	padding-left: 25px;
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica, "Helvetica Neue Medium";	
+}
+
+span {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#iPhoneWrapper {
+	padding-top: 70px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    background-color: #FAFAFA;
+	width: 100%;
+}
+
+.topnav :nth-last-child(2) {
+	right: 0.5em;
+	float: right;
+	position: absolute;
+	display: inline-block;
+	background-color: #126eba;
+	color: white;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color:#292929;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+font-family: Helvetica, "Helvetica Neue Medium";
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color:#727272;
+	color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+	background-color: #126eba;
+	color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Add a black background color to the top navigation */
+.topnavMac {
+    overflow: hidden;
+    background-color:#0A0A0A;
+	width: 100%;
+}
+
+.topnavMac :nth-last-child(2) {
+	right: 0.5em;
+	float: right;
+	position: absolute;
+	display: inline-block;
+	background-color: #126eba;
+	color: #00000;
+}
+
+/* Style the links inside the navigation bar */
+.topnavMac a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+font-family: Helvetica, "Helvetica Neue Medium";
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnavMac a:hover {
+	background-color: #373737;
+	color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnavMac a.active {
+	background-color: #126eba;
+	color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnavMac .icon {
+  display: none;
+}
+
+
+#banner img{
+    max-width: 100%;
+	z-index: 0;
+	position: relative;
+}
+
+#BodyContent {
+	padding-top: 5%;
+	width:80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+#BodyContent h1, .GroupZero h1{
+	font-size: 35px;
+    text-align: center;
+}
+
+#BodyContent h3, .GroupZero h3{
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica, "Helvetica Neue Medium";
+}
+
+#BodyImages1, #BodyImages3 {
+    width: 46%;
+	padding-left: 4%;
+	padding-right: 0%;
+	float: left;
+}
+
+#BodyImages1 img, #BodyImages2 img, #BodyImages3 img{
+	width: 100%;
+}
+
+#BodyContent1, #BodyContent3{
+    width: 46%;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: left;
+	
+}
+
+#BodyContent1 h1, #BodyContent3 h1{
+    font-family: Helvetica, "Helvetica Neue Medium";
+	text-align: left;
+    padding-top: 22%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: x-large;
+}
+
+#BodyContent1 h3,#BodyContent3 h3{
+    font-family: Helvetica, "Helvetica Neue Medium";
+	text-align: left;
+    padding-left: 2.5%;
+    padding-right: 7.5%;
+    float: left;
+    font-weight: lighter;
+    width: 75%;
+    font-size: large;
+}
+
+#BodyContent2{
+    width: 46%;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: left;
+}
+
+#BodyContent2 h1{
+    font-family: Helvetica, "Helvetica Neue Medium";
+	text-align: right;
+    padding-top: 22%;
+    padding-right: 3%;
+    font-size: x-large;
+}
+
+#BodyContent2 h3{
+    font-family: Helvetica, "Helvetica Neue Medium";
+	text-align: right;
+    padding-right: 4%;
+    padding-left: 21%;
+    font-weight: lighter;
+    width: 75%;
+    font-size: large;
+}
+
+#BodyImages2 {
+    width: 46%;
+	padding-left: 0%;
+	padding-right: 4%;
+	float: left;
+}
+
+.GroupZero, .GroupOne, .GroupTwo{
+	width: 90%;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	position:static;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+}
+
+.GroupThree{
+	width: 90%;
+    font-family: Helvetica, "Helvetica Neue Medium";
+	position:static;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+	padding-bottom: 10%;
+}
+
+#iPadContainer {
+	width: 71%;
+	margin: auto;
+}
+
+#boxOne{
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+	float: left;
+	margin: 5px;
+	background-size: cover;
+
+}
+
+#boxTwo {
+    height: 500px;
+    width: 500px;
+	float: right;
+	margin: 5px;
+	padding: 5px;
+    background-size: cover;
+
+}
+
+#boxThree {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+	float: left;
+	margin: 5px;
+
+    background-size: cover;
+}
+
+#boxFour {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+	float: right;
+	margin: 5px;
+	background-size: cover;
+}
+
+#boxOne img, #boxTwo img, #boxThree img, #boxFour img {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+}
+
+
+#boxFive, #boxZero{
+	clear: both;
+	text-align: center;
+	padding-top: 30px;
+	width: 90%;
+	margin: auto;
+}
+
+#boxFive h2, #boxZero h2{
+	color: #126eba;
+    font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 35px;
+}
+
+#MacBContainer, #WinAContainer {
+	margin: auto;
+	text-align: center;
+}
+
+
+
+#Mac1, #Mac2, #Mac3, #Mac4, #Mac5, #Mac6, #Mac7, #Mac8, #Mac9, #Mac10, #Mac11, #Mac12 {
+	background-color: #101010;
+	width: 495px;
+	height: 600px;
+	display: inline-block;
+	margin: 3px;
+}
+
+#innerMac1 p, #innerMac2 p, #innerMac3 p, #innerMac4 p, #innerMac5 p, #innerMac6 p, #innerMac7 p, #innerMac8 p, #innerMac9 p, #innerMac10 p, #innerMac11 p, #innerMac12 p{
+	text-align: left;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	float: left;
+	margin: 0;
+	padding-left: 70px;
+}
+										
+#innerMac1 span, #innerMac2 span, #innerMac3 span, #innerMac4 span, #innerMac5 span, #innerMac6 span, #innerMac7 span, #innerMac8 span, #innerMac9 span, #innerMac10 span, #innerMac11 span, #innerMac12 span {
+	background-color: #126eba;
+	border-radius: 15px;
+	padding: 5px;
+	margin-right: 60px;
+	float: right;
+}
+										
+#Mac1 h3, #Mac2 h3, #Mac3 h3, #Mac4 h3, #Mac5 h3, #Mac6 h3, #Mac7 h3, #Mac8 h3, #Mac9 h3, #Mac10 h3, #Mac11 h3, #Mac12 h3 {
+	color: #126eba;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 24px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+}
+										
+#Mac1 h5, #Mac2 h5, #Mac3 h5, #Mac4 h5, #Mac5 h5, #Mac6 h5, #Mac7 h5, #Mac8 h5, #Mac9 h5, #Mac10 h5, #Mac11 h5, #Mac12 h5 {
+	color: white;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+/* WINDOWS */
+
+#boxWinA{
+	clear: both;
+	background-color: white;
+	width: 96%;
+	margin: 0px auto;
+}
+
+#boxWinA h2{
+	color: black;
+    font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 35px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#boxWinA p{
+	color: black;
+    font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 18px;
+	width: 85%;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	padding-bottom: 20px;
+}
+
+#Win1, #Win2, #Win3, #Win4, #Win5, #Win6{
+	background-color: #f9f9f9;
+	width: 495px;
+	height: 600px;
+	display: inline-block;
+	margin: 3px;
+}
+
+#innerWin1 p, #innerWin2 p, #innerWin3 p, #innerWin4 p, #innerWin5 p, #innerWin6 p{
+	text-align: left;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	float: left;
+	margin: 0;
+	padding-left: 70px;
+}
+										
+#innerWin1 span, #innerWin2 span, #innerWin3 span, #innerWin4 span, #innerWin5 span, #innerWin6 span{
+	background-color: #126eba;
+	border-radius: 15px;
+	padding: 5px;
+	margin-right: 60px;
+	float: right;
+	color: white;
+}
+										
+#Win1 h3, #Win2 h3, #Win3 h3, #Win4 h3, #Win5 h3, #Win6 h3{
+	color: #126eba;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 24px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+}
+										
+#Win1 h5, #Win2 h5, #Win3 h5, #Win4 h5, #Win5 h5, #Win6 h5{
+	color: white;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+#boxFive p{
+	color: black;
+    font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 18px;
+	width: 60%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 20px;
+}
+
+#boxZero p{
+	color: black;
+    font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 18px;
+	width: 85%;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	padding-bottom: 20px;
+}
+
+#boxMacB{
+	clear: both;
+	background-color: black;
+	width: 96%;
+	margin: 0px auto;
+}
+
+#boxMacB h2{
+	color: white;
+    font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 35px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#boxMacB p{
+	color: white;
+    font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 18px;
+	width: 85%;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	padding-bottom: 20px;
+}
+
+#boxSix {
+	clear: both;
+}
+
+#boxOne p, #boxTwo p{
+    text-align: left;
+	position: relative;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-family: Helvetica, "Helvetica Neue Medium";
+}
+
+#boxOne h2, #boxTwo h2 {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	position: relative;
+	padding-left: 30px;
+	text-align: left;
+	color: #126eba;
+    font-family: Helvetica, "Helvetica Neue Medium";
+
+
+}
+
+#boxThree p, #boxFour p{
+	text-align: right;
+	padding-right: 50px;
+	position: relative;
+	padding-top: 5px;
+    font-family: Helvetica, "Helvetica Neue Medium";
+}
+
+#boxThree h2, #boxFour h2{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	position: relative;
+	text-align: right;
+	color: #126eba;
+    font-family: Helvetica, "Helvetica Neue Medium";
+}
+
+#mapcontainer{
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+ #map {
+	 height: 400px;
+     width: 100%;
+}
+
+#maptext{
+	padding-top: 7%;
+}
+
+#maptext h1, #CompaniesWorkedWith h1{
+    font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 35px;
+    text-align: center;
+	padding-bottom: 2%;
+}
+
+#CompaniesWorkedWith img{
+	width: 50%;
+	padding-left: 25%;
+	padding-right:25%;
+}
+
+#SelectionOptions {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 0;
+	padding-bottom: 8%;
+}
+
+#SelectionOptions a:hover, #imagecontainer a:hover, #footer3 a:hover, #boxFive a:hover{
+	opacity: 0.5;
+}
+
+footer{
+	height: 400px;
+	background-color:#0A0A0A;
+	color: white;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	text-align: left;
+	margin-top: 100px;
+	clear: both;
+}
+
+#footer1 h5{
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-weight: lighter;
+	font-size: 12px;
+	padding-left: 5px;
+
+}
+
+#footerelements {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#footer1 img{
+	padding-top: 40px;
+}
+
+
+#footer1{
+	float: left;
+	width: 30%;
+	padding: 1%;
+}
+
+#footer2, #footer3{
+	float: left;
+	width: 30%;
+	padding: 1%;
+	padding-top: 50px;
+	
+}
+
+#footer3 h4 {
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 14px;
+	font-weight: lighter;
+
+}
+
+#footer1inner{
+	padding-top: 20px;
+	padding-left: 5px;
+}
+
+#footer1inner a{
+	text-decoration: none;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	color: white;
+	padding: 0px;
+}
+
+#footer1inner a:hover{
+	background-color: white;
+	color: black;
+	border-radius: 2px;
+	padding: 2px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.right {
+  display: block;
+  margin-left: auto;
+  margin-right: 3%;
+  width: 13%;
+}
+
+#macContainer, #macContainer2 {
+	width: 98%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+}
+
+#macContainer a:hover, #macContainer2 a:hover {
+	opacity: 0.5;
+}
+
+#macBanner img {
+	width: 97%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+}
+
+#faqContent, #tosContent {
+	text-align: center;
+	width: 70%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 50px;
+}
+
+#faqContent h2 {
+	font-family: Helvetica, "Helvetica Neue Medium";
+	color: #126eba;
+	font-size: 40px;
+	margin: 0px;
+	padding-bottom: 35px;
+	font-weight: bolder;
+}
+
+#tosContent h2 {
+	font-family: Helvetica, "Helvetica Neue Medium";
+	color: black;
+	font-size: 50px;
+	margin: 0px;
+	padding-top: 60px;
+	font-weight: bolder;
+}
+
+#tosContent h3 {
+	font-family: Helvetica, "Helvetica Neue Medium";
+	color: black;
+	font-size: 20px;
+	margin: 0px;
+	padding-bottom: 90px;
+	font-weight: bolder;
+}
+
+#faqContent h4, #tosContent h4 {
+	font-family: Helvetica, "Helvetica Neue Medium";
+	color: #126eba;
+	font-size: 25px;
+	margin: 0px;
+}
+
+#faqContent p {
+	font-family: Helvetica, "Helvetica Neue Medium";
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	font-weight: lighter;
+}
+
+#loginform{
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 120px;
+	text-align: center;
+	font-family: Helvetica, "Helvetica Neue Medium";
+}
+
+#loginform h4 {
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 16px;
+}
+
+#loginform img{
+	width: 60%;
+	padding-top: 110px;
+}
+
+.loginpasswordfield, .loginusernamefield {
+	padding:14px;
+	border-radius: 18px;
+	border-style:groove;
+	text-align: center;
+	border-color:#4C4C4C;
+}
+
+.login-actions {
+	padding-top: 20px;
+}
+
+.signinbutton{
+	background-color: green;
+	color: white;
+	padding: 13px;
+	font-size: 15px;
+	border-radius: 18px;
+}
+
+.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+.scrollmenu a:hover {
+  background-color: #777;
+}
+
+#interacttext {
+	text-align: center;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 12px;
+}
+
+
+#iPhoneXSMAX img, #iPhoneXS img, #iPhoneXR img, #iPhoneX img, #iPhone8 img, #iPhone7 img, #iPhone6 img, #iPhone5 img {
+	height: 28em;
+}
+
+button {
+	padding: 0;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+button :hover {
+	opacity: 0.7;
+}
+
+#text1, #text2, #text3, #text4, #text5, #text6, #text7, #text8 {
+	text-align: center;
+	font-family: Helvetica, "Helvetica Neue Medium";
+}
+
+#ip1 h3, #ip2 h3, #ip3 h3, #ip4 h3, #ip5 h3, #ip6 h3, #ip7 h3, #ip8 h3, #ip9 h3{
+	text-align: center;
+	font-family: Helvetica, "Helvetica Neue Medium";
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+#iPhoneBanner img, #iPhoneBanner2 img, #iPhoneBanner3 img{
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 50px;
+}
+
+
+@media screen and (max-width: 1500px) {
+	
+#boxOne, #boxTwo, #boxThree, #boxFour {
+	width: 450px;
+	height: 450px;
+}
+
+#boxOne img, #boxTwo img, #boxThree img, #boxFour img {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+}
+	
+#iPadContainer {
+	width: 71%;
+	margin: auto;
+	font-size: 15px;
+}
+}
+
+@media screen and (max-width: 1350px) {
+	
+#boxOne, #boxTwo, #boxThree, #boxFour {
+	width: 450px;
+	height: 450px;
+}
+
+#boxOne img, #boxTwo img, #boxThree img, #boxFour img {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+}
+	
+#iPadContainer {
+	width: 80%;
+	margin: auto;
+	font-size: 15px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+	
+#boxOne, #boxTwo, #boxThree, #boxFour {
+	width: 400px;
+	height: 400px;
+}
+
+#boxOne img, #boxTwo img, #boxThree img, #boxFour img {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+}
+	
+#iPadContainer {
+	width: 80%;
+	margin: auto;
+	font-size: 15px;
+}
+	#footer3 img {
+		width: 50px;
+	}
+	#BodyContent1 h1, #BodyContent2 h1, #BodyContent3 h1{
+		padding-top: 10px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1075px) {
+	
+#boxOne, #boxTwo, #boxThree, #boxFour {
+	width: 400px;
+	height: 400px;
+}
+
+#boxOne img, #boxTwo img, #boxThree img, #boxFour img {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+}
+	
+#iPadContainer {
+	width: 90%;
+	margin: auto;
+	font-size: 15px;
+}
+		#loginform img{
+		width: 80%;
+		padding-top: 90px;
+	}
+}
+
+@media screen and (max-width: 950px) {	
+#boxOne, #boxTwo, #boxThree, #boxFour {
+	width: 400px;
+	height: 400px;
+}
+
+#boxOne img, #boxTwo img, #boxThree img, #boxFour img {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+}
+	
+#iPadContainer {
+	width: 100%;
+	margin: auto;
+	font-size: 15px;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+ .topnavMac a:not(:first-child) {display: none;}
+  .topnavMac a.icon {
+    float: right;
+    display: block;
+  }
+	#footer1 a {
+		padding-right: 10px;
+	}
+	#footer3 h4{
+		padding-right: 10px;
+	}
+	
+	#macBanner {
+		display: none;
+	}
+
+#boxOne img, #boxTwo img, #boxThree img, #boxFour img {
+	width: 400px;
+	height: 400px;
+	}
+	#boxOne, #boxTwo, #boxThree, #boxFour{
+	float: left;
+	margin-left: 25%;
+	width: 400px;
+	height: 400px;
+}
+	
+#iPadContainer {
+	font-size: 13px;
+}
+	#BodyContent1 h1, #BodyContent2 h1, #BodyContent3 h1{
+		padding-top: 0px;
+		font-size: 17px;
+	}
+	#BodyContent1 h3, #BodyContent2 h3, #BodyContent3 h3{
+		font-size: 16px;
+	}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 900px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnavMac.responsive {position: relative;}
+  .topnavMac.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnavMac.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 700px) {
+	#boxOne img, #boxTwo img, #boxThree img, #boxFour img {
+	width: 300px;
+	height: 300px;
+	}
+	#boxOne, #boxTwo, #boxThree, #boxFour{
+	float: left;
+	margin-left: 13%;
+		font-size: 11px;
+	width: 300px;
+	height: 300px;
+}
+	
+#iPadContainer {
+	font-size: 13px;
+}
+	#iPhoneBanner, #iPhoneBanner2, #iPhoneBanner3 {
+		display: none;
+	}
+}
+
+@media screen and (max-width : 675px ){
+		#footer, #footer1, #footer2, #footer3 {
+		width: 100%;
+		height: 140px;
+		margin: auto;
+		padding: 0px;
+		text-align: center;
+	}
+	
+	#textcontainer {
+		float: left;
+		padding-left: 20px;
+	}
+	
+	#footerelements img{
+		display: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#BodyContent1, #BodyContent2, #BodyContent3 {
+		clear: both;
+		width: 95%;
+		margin: auto;
+	}
+	
+	#BodyContent1 h1, #BodyContent1 h3, #BodyContent2 h1, #BodyContent2 h3, #BodyContent3 h1, #BodyContent3 h3{
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	
+	#BodyImages1, #BodyImages2, #BodyImages3{
+		display: none;
+	}
+		#loginform img{
+		width: 100%;
+		padding-top: 60px;
+	}
+}
